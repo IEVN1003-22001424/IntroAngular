@@ -7,5 +7,15 @@ import { Component, signal } from '@angular/core';
   templateUrl: './app.html',
 })
 export class App {
-  protected readonly title = signal('IntroAngular');
+  title:string="Jose Enrique Hernandez"
+
+  duplicarnumero(a:number):number{
+    return a*2
+  }
+
+  Pelicula={
+    titulo: "Spider-Man",
+    fechaLanzamiento: new Date(),
+    precio: 235
+  }
 }
