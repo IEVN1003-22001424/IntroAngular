@@ -3,6 +3,12 @@ import { Component, signal } from '@angular/core';
 @Component({
   selector: 'app-root',
   standalone: false,
+  //template:`
+  //<div>
+  //  <h1>{{title}}</h1>
+  //  <app-heroes-list></app-heroes-list>
+  //</div>
+  //`,
   styleUrl: './app.css',
   templateUrl: './app.html',
 })
